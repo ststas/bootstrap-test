@@ -1,0 +1,6 @@
+/*VENDOR*/
+@import url(../vendor/normalize.css);
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+/*PAGE & FONTS*/
+@import url(../blocks/page/page.css);
+@import url(../vendor/fonts/fonts.css);
