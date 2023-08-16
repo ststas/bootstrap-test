@@ -3,18 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap Test</title>
+  <title>S.Zaitsev Portfolio</title>
 </head>
 <body>
   <div class="page">
-    <main>
-      <div class="container">
-        <button class="btn btn-primary">CLICK ME</button>
-      </div>
+
+    <header class="header sticky-top">
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav navnavnav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#about-me-area">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacts</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <section class="site-banner">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h3 class="title-text">Hello!</h3>
+              <h2 class="title-text">I am Stanislav Zaitsev</h2>
+              <h4 class="title-text">Web Developer</h4>
+              <div class="tite-buttons">
+                <button class="btn button primary-button mr-4 text-uppercase">Get CV</button>
+              </div>
+            </div>
+            <div class="col">
+              <img src="<%=require('../src/images/avatar_square.jpg')%>" alt="portrait image" class="img-fluid rounded site-image">
+            </div>
+        </div>
+      </section>
+
+      <section class="about-area" id="about-me-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h3 class="title-text" >About Me</h3>
+              <p class="aboutme-text">
+                Passionate web developer with over 1 year of hands-on experience.
+                Having graduated from Yandex Practicum IT school, I've sharpened my skills in HTML, CSS, 
+                JavaScript, React, and Node.js. During my studies, I've successfully finished several 
+                projects that were built on principles of object-oriented programming and responsive 
+                design. Additionally, I've developed customized forms with thorough validation, utilized 
+                REST APIs for smooth data communication, and initiated a project  built around a Node.js 
+                server. My proficiency extends to version control using GitHub, project assembly via 
+                WebPack/NPM, and adeptness at testing and debugging. Moreover, I have a background in 
+                mathematics, which complements my programming skills. 
+              </p>
+              <p class="aboutme-text">
+                In addition, my previous experiences include working within the music industry. 
+                I managed an internationally acclaimed band, negotiated with labels and promoters, and 
+                thereby improved my communication and business abilities. My involvement in guiding 
+                creative direction has honed my teamwork and leadership skills. Furthermore, my role as a 
+                mentor in electronic music schools has provided me with the opportunity to educate over 
+                200 aspiring producers.
+                </p>
+            </div>
+        </div>
+      </section>
+
+      <section class="stack-tools">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h3 class="title-text">Tech Stack</h3>
+            </div>
+          </div>
+          <div class="row mb-3 mt-1">
+            <div class="col text-center">
+              <img src="<%=require('../src/images/icon-html.svg')%>" alt="html icon-js" class="img-fluid icon-stack">
+            </div>
+            <div class="col text-center">
+              <img src="<%=require('../src/images/icon-css.svg')%>" alt="css icon" class="img-fluid icon-stack">
+            </div>
+            <div class="col text-center">
+              <img src="<%=require('../src/images/icon-js.svg')%>" alt="js icon" class="img-fluid icon-stack">
+            </div>
+            <div class="col text-center">
+              <img src="<%=require('../src/images/icon-react.svg')%>" alt="react icon" class="img-fluid icon-stack">
+            </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <img src="<%=require('../src/images/icon-express.svg')%>" alt="portrait image" class="img-fluid icon-stack">
+          </div>
+          <div class="col text-center">
+            <img src="<%=require('../src/images/icon-github.svg')%>" alt="portrait image" class="img-fluid icon-stack">
+          </div>
+          <div class="col text-center">
+            <img src="<%=require('../src/images/icon-webpack.svg')%>" alt="portrait image" class="img-fluid icon-stack">
+          </div>
+          <div class="col text-center">
+            <img src="<%=require('../src/images/icon-vscode.svg')%>" alt="portrait image" class="img-fluid icon-stack">
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+      </section>
+
     </main>
-    <footer class="footer">
+
+    <footer>
     </footer>
   </div>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
 </body>
 </html>   

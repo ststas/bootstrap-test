@@ -1,0 +1,87 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  box-sizing: border-box;
+  min-width: 320px;
+  height: 100%;
+  background: lightgray;
+  padding: 0 10vw;
+}
+
+.header {
+  background: lightgray;
+  box-sizing: border-box;
+  border-bottom: 1px solid #495057;
+
+}
+
+/* .navbar {
+  margin: 0 20px;
+} */
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*BANNER AREA*/
+
+.site-banner {
+  margin-top: 5%;
+}
+.site-banner h3{
+  padding-top: 15%;
+  font-weight: 500;
+}
+
+.site-banner h2{
+  font-size: 54px;
+}
+
+.site-banner h4{
+  font-size: 27px;
+}
+
+.site-banner .button {
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 0 0 18px 0;
+}
+.site-banner .button:hover {
+  background-color: rgb(181, 180, 180);
+}
+
+.site-image {
+  min-width: 256px;
+}
+
+.title-text {
+  font-weight: normal bold;
+}
+
+/*ABOUT ME AREA*/
+.aboutme-text {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.about-area {
+  margin-top: 5%;
+}
+
+.icon-stack {
+  max-height: 80px;
+}
+
