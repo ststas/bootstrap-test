@@ -39,7 +39,7 @@ body {
 /*BANNER AREA*/
 
 .site-banner {
-  margin-top: 5%;
+
 }
 .site-banner h3{
   padding-top: 15%;
@@ -72,16 +72,19 @@ body {
 }
 
 /*ABOUT ME AREA*/
+.about-area {
+
+}
 .aboutme-text {
   font-size: 18px;
   font-weight: normal;
 }
 
-.about-area {
-  margin-top: 5%;
-}
-
 .icon-stack {
   max-height: 80px;
+}
+
+.stack-tools {
+
 }
 
