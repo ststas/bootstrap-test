@@ -5,7 +5,7 @@ html {
 body {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 5%;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,8 +16,22 @@ body {
   box-sizing: border-box;
   min-width: 320px;
   height: 100%;
-  background: lightgray;
-  padding: 0 10vw;
+  background: lightgray;  
+}
+
+
+.button {
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 0 0 18px 0;
+}
+.button:hover {
+  background-color: rgb(181, 180, 180);
+  
+}
+
+.title-text {
+  font-weight: normal bold;
 }
 
 /*HEADER*/
@@ -33,8 +47,13 @@ body {
 
 /*BANNER AREA*/
 .site-banner h3 {
-  padding-top: 15%;
   font-weight: 500;
+}
+
+@media screen and (min-width: 1024px) {
+  .site-banner h3 {
+    padding-top: 15%;
+  }  
 }
 
 .site-banner h2{
@@ -45,24 +64,11 @@ body {
   font-size: 27px;
 }
 
-.button {
-  box-sizing: border-box;
-  border: 1px solid black;
-  margin: 0 0 18px 0;
-}
-.button:hover {
-  background-color: rgb(181, 180, 180);
-  
-}
-
 .site-image {
   min-width: 256px;
   /* max-width: px; */
 }
 
-.title-text {
-  font-weight: normal bold;
-}
 
 /*ABOUT ME AREA*/
 .aboutme-text {
@@ -113,15 +119,11 @@ body {
 
 .projects .card-img-top:hover {
   cursor: pointer;
-  filter: saturate(1);
+  filter: saturate(115%);
   scale: 1.015;
   transition: all .4s ease-in-out;
 }
 
 .projects .card-title {
   letter-spacing: 1px;
-}
-
-.projects .col {
-  padding: 0;
 }

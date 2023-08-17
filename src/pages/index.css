@@ -1,9 +1,8 @@
 /*VENDOR*/
 @import url(../vendor/normalize.css);
-@import url(../../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.min.css);
 /*MAIN*/
-@import url(../blocks/main/main.css);
-/*PAGE & FONTS*/
-@import url(../blocks/page/page.css);
+@import url(../css/main.css);
+/*FONTS*/
 @import url(../vendor/fonts/fonts.css);
 @import url(../vendor/font-awesome/css/fontawesome.min.css);
