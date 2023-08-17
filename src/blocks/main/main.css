@@ -3,6 +3,9 @@ html {
 }
 
 body {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,30 +20,18 @@ body {
   padding: 0 10vw;
 }
 
+/*HEADER*/
 .header {
   background: lightgray;
   box-sizing: border-box;
   border-bottom: 1px solid #495057;
-
 }
 
-/* .navbar {
-  margin: 0 20px;
-} */
-
-.container-fluid {
-  padding: 0;
-}
-
-.navbar-collapse {
+.header .navbar-collapse {
   justify-content: flex-end;
 }
 
 /*BANNER AREA*/
-
-/* .site-banner {
-
-} */
 .site-banner h3 {
   padding-top: 15%;
   font-weight: 500;
@@ -54,17 +45,19 @@ body {
   font-size: 27px;
 }
 
-.site-banner .button {
+.button {
   box-sizing: border-box;
   border: 1px solid black;
   margin: 0 0 18px 0;
 }
-.site-banner .button:hover {
+.button:hover {
   background-color: rgb(181, 180, 180);
+  
 }
 
 .site-image {
   min-width: 256px;
+  /* max-width: px; */
 }
 
 .title-text {
@@ -72,14 +65,12 @@ body {
 }
 
 /*ABOUT ME AREA*/
-/* .about-area {
-
-} */
 .aboutme-text {
   font-size: 18px;
   font-weight: normal;
 }
 
+/*STACK*/
 .icon-stack {
   max-height: 80px;
   filter: saturate(0);
@@ -93,7 +84,44 @@ body {
   transition: all .4s ease-in-out;
 }
 
-/* .stack-tools {
+/*PROJECTS*/
+.projects-card {
+  border-radius: 0;
+  border: none;
+  
+}
+.projects .card-body {
+  padding-left: 0;
+  padding-right: 0; 
+}
 
-} */
+.projects-button {
+  width: 45%;
+  font-size: 16px;
+  padding: 5px 0;
+}
 
+.projects .card-title {
+  margin-bottom: 18px;
+}
+
+.projects .card-img-top {
+  filter: saturate(0);
+  transition: all .4s ease-in-out;
+
+}
+
+.projects .card-img-top:hover {
+  cursor: pointer;
+  filter: saturate(1);
+  scale: 1.015;
+  transition: all .4s ease-in-out;
+}
+
+.projects .card-title {
+  letter-spacing: 1px;
+}
+
+.projects .col {
+  padding: 0;
+}
