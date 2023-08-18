@@ -1,6 +1,5 @@
 /*VENDOR*/
 @import url(../vendor/normalize.css);
-@import url(../vendor/magnific-popup/dist/magnific-popup.css);
 @import url(../../node_modules/bootstrap/dist/css/bootstrap.min.css);
 /*MAIN*/
 @import url(../css/main.css);

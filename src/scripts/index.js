@@ -1,17 +1,12 @@
-import $ from "jquery";
+import Lightbox from 'bs5-lightbox';
 
-$('.project-popup-link').magnificPopup({
-  type: 'image',
-  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+const options = {
+	keyboard: true,
+	size: 'default'
+};
 
-  zoom: {
-    enabled: true, // By default it's false, so don't forget to enable it
-
-    duration: 300, // duration of the effect, in milliseconds
-    easing: 'ease-in-out', // CSS transition easing function
-
-    opener: function(openerElement) {
-      return openerElement.is('img') ? openerElement : openerElement.find('img');
-    }
-  },
-});
+document.querySelectorAll('.my-lightbox-toggle').forEach((el) => el.addEventListener('click', (e) => {
+	e.preventDefault();
+	const lightbox = new Lightbox(el, options);
+	lightbox.show();
+}));
