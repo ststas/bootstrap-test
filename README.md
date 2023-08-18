@@ -20,7 +20,7 @@
 ## Web version
 * https://ststas.github.io
 
-### Stanislav Zaitsev х Yandex Practicum 
+### Stanislav Zaitsev
 
 
 # ПРОЕКТ BOOTSTRAP PORTFOLIO
@@ -45,4 +45,4 @@
 ## Развернутая версия
 * https://ststas.github.io
 
-### Станислав Зайцев х Yandex Practicum
+### Станислав Зайцев
