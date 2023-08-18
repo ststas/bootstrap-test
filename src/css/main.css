@@ -140,3 +140,62 @@ body {
 .projects .card-title {
   letter-spacing: 1px;
 }
+
+/*Magnific Popup*/
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: .8;
+}
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+/*Footer*/
+.fa-telegram {
+  color: rgb(101, 101, 101);
+  transition: all .4s ease-in-out;
+}
+.fa-telegram:hover {
+  color: rgb(3, 66, 254);
+  scale: 1.5;
+  transition: all .4s ease-in-out;
+}
+.fa-linkedin {
+  color: rgb(101, 101, 101);
+  transition: all .4s ease-in-out;
+}
+.fa-linkedin:hover {
+  color: rgb(3, 66, 254);
+  scale: 1.5;
+  transition: all .4s ease-in-out;
+}
+.fa-github {
+  color: rgb(101, 101, 101);
+  transition: all .4s ease-in-out;
+}
+.fa-github:hover {
+  color: rgb(3, 66, 254);
+  scale: 1.5;
+  transition: all .4s ease-in-out;
+}
+.fa-facebook {
+  color: rgb(101, 101, 101);
+  transition: all .4s ease-in-out;
+}
+.fa-facebook:hover {
+  color: rgb(3, 66, 254);
+  scale: 1.5;
+  transition: all .4s ease-in-out;
+}
