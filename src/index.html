@@ -36,20 +36,22 @@
     
     <main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="contents crollspy-example" tabindex="0">
       <div id="hello-area"></div>
-      <section class="site-banner mt-5" >
+      <section class="site-banner" >
         <div class="container-fluid">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col">
               <h3 class="title-text">Hello!</h3>
-              <h2 class="title-text">I am Stanislav Zaitsev</h2>
-              <h4 class="title-text">Web Developer</h4>
+              <h2 class="title-text mt-3">I&nbspam&nbspStanislav</h2>
+              <h2 class="title-text">Zaitsev</h2>
+              <h4 class="title-text mt-3 mb-4">Web Developer</h4>
               <div class="tite-buttons">
                 <a href="https://drive.google.com/drive/folders/1ZeuBLnfJeezc-_Ve--R5V2nTuWkc0dhd?usp=sharing" class="btn button primary-button mr-4 text-uppercase" target="_blank">Get CV</a>
-
               </div>
             </div>
             <div class="col">
-              <img src="<%=require('../src/images/my-avatar.jpg')%>" alt="portrait image" class="img-fluid rounded site-image">
+              <div class="row site-banner-row align-items-start">
+              <img class="img-fluid site-image rounded" src="<%=require('../src/images/my-avatar.jpg')%>" alt="portrait image" >
+              </div>
             </div>
         </div>
       </section>
@@ -59,7 +61,7 @@
           <div class="row">
             <div class="col">
               <h3 class="title-text" >About Me</h3>
-              <p class="aboutme-text">
+              <p class="aboutme-text mt-4">
                 Passionate web developer with over 1 year of hands-on experience.
                 Having graduated from Yandex Practicum IT school, I've sharpened my skills in HTML, CSS, 
                 JavaScript, React, and Node.js. During my studies, I've successfully finished several 
@@ -77,7 +79,7 @@
                 creative direction has honed my teamwork and leadership skills. Furthermore, my role as a 
                 mentor in electronic music schools has provided me with the opportunity to educate over 
                 200 aspiring producers.
-                </p>
+              </p>
             </div>
         </div>
       </section>
@@ -89,7 +91,7 @@
               <h3 class="title-text">Tech Stack</h3>
             </div>
           </div>
-          <div class="row mt-5">
+          <div class="row mt-4">
             <div class="col text-center">
               <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
                 <img src="<%=require('../src/images/icon-html.svg')%>" alt="html logo" class="img-fluid icon-stack">
@@ -111,7 +113,7 @@
               </a>
             </div>
           </div>
-          <div class="row mt-5">
+          <div class="row mt-4">
             <div class="col text-center">
               <a href="https://expressjs.com" target="_blank">
                 <img src="<%=require('../src/images/icon-express.svg')%>" alt="express logo" class="img-fluid icon-stack">
@@ -143,44 +145,52 @@
               <h3 class="title-text">Projects</h3>
             </div>
           </div>
-          <div class="row mt-5">
+          <div class="row mt-4">
             <div class="col col-card text-center">
-              <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
-                <img src="<%=require('../src/images/project-mesto-react.jpg')%>" class="card-img-top rounded" alt="mesto react website screenshot">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Mesto React</h5>
-                  <a href="https://ststas.github.io/projects/mestoreact" class="btn button primary-button projects-button" target="_blank">Web Version</a>
-                  <a href="https://github.com/ststas/project-react-mesto-auth" class="btn button primary-button projects-button" target="_blank">Repository</a>
+              <div class="row justify-content-center">
+                <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
+                  <img src="<%=require('../src/images/project-mesto-react.jpg')%>" class="card-img-top rounded" alt="mesto react website screenshot">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">Mesto React</h5>
+                    <a href="https://ststas.github.io/projects/mestoreact" class="btn button primary-button projects-button" target="_blank">Web</a>
+                    <a href="https://github.com/ststas/project-react-mesto-auth" class="btn button primary-button projects-button" target="_blank">GitHub</a>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col col-card text-center">
-              <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
-                <img src="<%=require('../src/images/project-littlefatboy.jpg')%>" class="card-img-top rounded" alt="little fat boy website screenshot">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Little Fat Boy</h5>
-                  <a href="https://ststas.github.io/projects/littlefatboy" class="btn button primary-button projects-button" target="_blank">Web Version</a>
-                  <a href="#" class="btn button primary-button projects-button" target="_blank">Repository</a>
+              <div class="row justify-content-center">
+                <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
+                  <img src="<%=require('../src/images/project-littlefatboy.jpg')%>" class="card-img-top rounded" alt="little fat boy website screenshot">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">Little Fat Boy</h5>
+                    <a href="https://ststas.github.io/projects/littlefatboy" class="btn button primary-button projects-button" target="_blank">Web</a>
+                    <a href="#" class="btn button primary-button projects-button" target="_blank">GitHub</a>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col col-card text-center">
-              <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
-                <img src="<%=require('../src/images/project-mesto-java.jpg')%>" class="card-img-top rounded" alt="mesto java website screenshot">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Mesto Java</h5>
-                  <a href="https://ststas.github.io/projects/mestojava/" class="btn button primary-button projects-button" target="_blank">Web Version</a>
-                  <a href="https://github.com/ststas/mesto" class="btn button primary-button projects-button" target="_blank">Repository</a>
+              <div class="row justify-content-center">
+                <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
+                  <img src="<%=require('../src/images/project-mesto-java.jpg')%>" class="card-img-top rounded" alt="mesto java website screenshot">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">Mesto Java</h5>
+                    <a href="https://ststas.github.io/projects/mestojava/" class="btn button primary-button projects-button" target="_blank">Web</a>
+                    <a href="https://github.com/ststas/mesto" class="btn button primary-button projects-button" target="_blank">GitHub</a>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col col-card text-center">
-              <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
-                <img src="<%=require('../src/images/project-travel.jpg')%>" class="card-img-top rounded" alt="travel website screenshot">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Travel</h5>
-                  <a href="https://ststas.github.io/projects/russian-travel" class="btn button primary-button projects-button" target="_blank">Web Version</a>
-                  <a href="https://github.com/ststas/russian-travel" class="btn button primary-button projects-button" target="_blank">Repository</a>
+              <div class="row justify-content-center">
+                <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
+                  <img src="<%=require('../src/images/project-travel.jpg')%>" class="card-img-top rounded" alt="travel website screenshot">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">Travel</h5>
+                    <a href="https://ststas.github.io/projects/russian-travel" class="btn button primary-button projects-button" target="_blank">Web</a>
+                    <a href="https://github.com/ststas/russian-travel" class="btn button primary-button projects-button" target="_blank">GitHub</a>
+                  </div>
                 </div>
               </div>
             </div>
