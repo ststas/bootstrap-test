@@ -40,6 +40,21 @@ module.exports = {
         type: 'asset/resource',
       },
       {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+          }
+        ],
+      },
+      {
+        test: /\.(jpe?g|png|gif)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'img/[hash][ext]'
+        }
+      },
+      {
         test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader, 

@@ -36,7 +36,7 @@
     
     <main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="contents crollspy-example" tabindex="0">
       <div id="hello-area"></div>
-
+      
       <section class="site-banner" >
         <div class="container-fluid">
           <div class="row align-items-center">
@@ -51,7 +51,7 @@
             </div>
             <div class="col">
               <div class="row site-banner-row align-items-start">
-              <img class="img-fluid site-image rounded" src="<%=require('../src/images/my-avatar.jpg')%>" alt="portrait image" >
+              <img class="img-fluid site-image rounded" src="../src/images/my-avatar.jpg" alt="portrait image" >
               </div>
             </div>
         </div>
@@ -95,44 +95,44 @@
           <div class="row mt-4">
             <div class="col text-center">
               <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-                <img src="<%=require('../src/images/icon-html.svg')%>" alt="html logo" class="img-fluid icon-stack">
+                <img src="../src/images/icon-html.svg" alt="html logo" class="img-fluid icon-stack">
               </a>   
             </div>
             <div class="col text-center">
               <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-                <img src="<%=require('../src/images/icon-css.svg')%>" alt="css logo" class="img-fluid icon-stack">
+                <img src="../src/images/icon-css.svg" alt="css logo" class="img-fluid icon-stack">
               </a>
             </div>
             <div class="col text-center">
               <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262" target="_blank">
-                <img src="<%=require('../src/images/icon-js.svg')%>" alt="javascript logo" class="img-fluid rounded icon-stack">
+                <img src="../src/images/icon-js.svg" alt="javascript logo" class="img-fluid rounded icon-stack">
               </a>
             </div>
             <div class="col text-center">
               <a href="https://react.dev" target="_blank">
-                <img src="<%=require('../src/images/icon-react.svg')%>" alt="react logo" class="img-fluid icon-stack">
+                <img src="../src/images/icon-react.svg" alt="react logo" class="img-fluid icon-stack">
               </a>
             </div>
           </div>
           <div class="row mt-4">
             <div class="col text-center">
               <a href="https://expressjs.com" target="_blank">
-                <img src="<%=require('../src/images/icon-express.svg')%>" alt="express logo" class="img-fluid icon-stack">
+                <img src="../src/images/icon-express.svg" alt="express logo" class="img-fluid icon-stack">
               </a>
             </div>
             <div class="col text-center">
               <a href="https://webpack.js.org" target="_blank">
-                <img src="<%=require('../src/images/icon-webpack.svg')%>" alt="webpack logo" class="img-fluid icon-stack">
+                <img src="../src/images/icon-webpack.svg" alt="webpack logo" class="img-fluid icon-stack">
               </a>
             </div>
             <div class="col text-center">
               <a href="https://github.com" target="_blank">
-                <img src="<%=require('../src/images/icon-github.svg')%>" alt="github logo" class="img-fluid icon-stack">
+                <img src="../src/images/icon-github.svg" alt="github logo" class="img-fluid icon-stack">
               </a>
             </div>
             <div class="col text-center">
               <a href="https://code.visualstudio.com" target="_blank">
-                <img src="<%=require('../src/images/icon-vscode.svg')%>" alt="vscode logo" class="img-fluid icon-stack">
+                <img src="../src/images/icon-vscode.svg" alt="vscode logo" class="img-fluid icon-stack">
               </a>
             </div>
           </div>    
@@ -150,9 +150,7 @@
             <div class="col col-card text-center">
               <div class="row justify-content-center">
                 <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
-                  <a href="<%=require('../src/images/project-mesto-react.jpg')%>" data-toggle="lightbox" class="project-popup-link">
-                    <img src="<%=require('../src/images/project-mesto-react.jpg')%>" class="img-fluid card-img-top rounded" alt="mesto react website screenshot">
-                  </a>
+                    <img src="../src/images/project-mesto-react.jpg" class="img-fluid card-img-top rounded projects-image" alt="mesto react website screenshot" data-bs-toggle="modal" data-bs-target="#projectsModal">
                   <div class="card-body">
                     <h5 class="card-title text-uppercase">Mesto React</h5>
                     <a href="https://ststas.github.io/projects/mestoreact" class="btn button primary-button projects-button" target="_blank">Web</a>
@@ -164,9 +162,7 @@
             <div class="col col-card text-center">
               <div class="row justify-content-center">
                 <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
-                  <a href="<%=require('../src/images/project-littlefatboy.jpg')%>" data-toggle="lightbox" class="project-popup-link">
-                    <img src="<%=require('../src/images/project-littlefatboy.jpg')%>" class="img-fluid card-img-top rounded" alt="little fat boy website screenshot">
-                  </a>
+                    <img src="../src/images/project-littlefatboy.jpg" class="img-fluid card-img-top rounded projects-image" alt="little fat boy website screenshot" data-bs-toggle="modal" data-bs-target="#projectsModal">
                   <div class="card-body">
                     <h5 class="card-title text-uppercase">Little Fat Boy</h5>
                     <a href="https://ststas.github.io/projects/littlefatboy" class="btn button primary-button projects-button" target="_blank">Web</a>
@@ -178,9 +174,7 @@
             <div class="col col-card text-center">
               <div class="row justify-content-center">
                 <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
-                  <a href="<%=require('../src/images/project-mesto-java.jpg')%>" data-toggle="lightbox" class="project-popup-link">
-                    <img src="<%=require('../src/images/project-mesto-java.jpg')%>" class="img-fluid card-img-top rounded" alt="mesto website screenshot">
-                  </a>
+                    <img src="../src/images/project-mesto-java.jpg" class="img-fluid card-img-top rounded projects-image" alt="mesto website screenshot" data-bs-toggle="modal" data-bs-target="#projectsModal">
                   <div class="card-body">
                     <h5 class="card-title text-uppercase">Mesto JS</h5>
                     <a href="https://ststas.github.io/projects/mestojava/" class="btn button primary-button projects-button" target="_blank">Web</a>
@@ -192,9 +186,7 @@
             <div class="col col-card text-center">
               <div class="row justify-content-center">
                 <div class="card bg-transparent mb-3 projects-card" style="width: 14rem;">
-                  <a href="<%=require('../src/images/project-travel.jpg')%>" data-toggle="lightbox" class="project-popup-link">
-                    <img src="<%=require('../src/images/project-travel.jpg')%>" class="img-fluid card-img-top rounded" alt="travel website screenshot">
-                  </a>
+                    <img src="../src/images/project-travel.jpg" class="img-fluid card-img-top rounded projects-image" alt="travel website screenshot" data-bs-toggle="modal" data-bs-target="#projectsModal">
                   <div class="card-body">
                     <h5 class="card-title text-uppercase">Travel</h5>
                     <a href="https://ststas.github.io/projects/russian-travel" class="btn button primary-button projects-button" target="_blank">Web</a>
@@ -206,7 +198,6 @@
           </div>
         </div>
       </section>
-
     </main>
 
     <footer class="footer pb-3">
@@ -227,6 +218,18 @@
         </div>
       </div>
     </footer>
+
+<!-- MODAL -->
+    <div class="modal fade " id="projectsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" data-bs-theme="dark">
+            <button type="button" class="btn-close modal-button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+                <img src="#" class="modal-img rounded" alt="">
+            </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 </body>

@@ -1,12 +1,10 @@
-import Lightbox from 'bs5-lightbox';
+const modalImg =  document.querySelector('.modal-img')
 
-const options = {
-	keyboard: true,
-	size: 'default'
-};
-
-document.querySelectorAll('.my-lightbox-toggle').forEach((el) => el.addEventListener('click', (e) => {
-	e.preventDefault();
-	const lightbox = new Lightbox(el, options);
-	lightbox.show();
-}));
+document.addEventListener('click', (event) => {
+	if(event.target.classList.contains('projects-image')) {
+		const src = event.target.getAttribute('src');
+		const alt = event.target.getAttribute('alt');
+		modalImg.src = src;
+		modalImg.alt = alt;
+	}
+})

@@ -24,7 +24,6 @@ body {
   border: 1px solid black;
   margin: 0 0 18px 0;
 }
-
 .button:hover {
   background-color: rgb(181, 180, 180);
   
@@ -54,34 +53,28 @@ body {
     margin-top: 18px;
   }
 }
-
 .site-banner h3 {
   font-weight: 500;
 }
-
 .site-banner h2 {
   margin-bottom: 0;
   font-size: 54px;
 }
-
 @media screen and (max-width: 833px) {
   .site-banner h2 {
     margin-bottom: 0;
     font-size: 39px;
   }
 }
-
 .site-banner-row {
   padding: 0 13.5px
 }
-
 .site-image {
   min-width: 256px;
   object-fit: cover;
   margin: 0;
   padding: 0;
 }
-
 .site-banner .button {
   margin-bottom: 10%;
 }
@@ -140,28 +133,7 @@ body {
   letter-spacing: 1px;
 }
 
-/*Magnific Popup*/
-.mfp-with-zoom .mfp-container,
-.mfp-with-zoom.mfp-bg {
-  opacity: 0;
-  backface-visibility: hidden;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
-}
-.mfp-with-zoom.mfp-ready .mfp-container {
-    opacity: 1;
-}
-.mfp-with-zoom.mfp-ready.mfp-bg {
-    opacity: .8;
-}
-.mfp-with-zoom.mfp-removing .mfp-container,
-.mfp-with-zoom.mfp-removing.mfp-bg {
-  opacity: 0;
-}
-
-/*Footer*/
+/*FOOTER*/
 .fa-telegram {
   color: rgb(101, 101, 101);
   transition: all .4s ease-in-out;
@@ -197,4 +169,25 @@ body {
   color: rgb(3, 66, 254);
   scale: 1.5;
   transition: all .4s ease-in-out;
+}
+
+/*MODAL*/
+.modal-content {
+  background: transparent;
+  border: none;
+}
+.modal-content {
+  position: relative;
+}
+.modal-button {
+  position: absolute;
+  right: -4px;
+  top: -40px;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-img {
+  width: 100%;
+  object-fit: contain;
 }
