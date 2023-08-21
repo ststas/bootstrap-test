@@ -1,10 +1,15 @@
-const modalImg =  document.querySelector('.modal-img')
+const modalImg = document.querySelector('.modal-img');
 
-document.addEventListener('click', (event) => {
-	if(event.target.classList.contains('projects-image')) {
-		const src = event.target.getAttribute('src');
-		const alt = event.target.getAttribute('alt');
-		modalImg.src = src;
-		modalImg.alt = alt;
-	}
-})
+function handleImageClick(event) {
+    const clickedImage = event.target.closest('.projects-image');
+    
+    if (clickedImage) {
+        const src = clickedImage.getAttribute('src');
+        const alt = clickedImage.getAttribute('alt');
+        
+        modalImg.src = src;
+        modalImg.alt = alt;
+    }
+}
+
+document.addEventListener('click', handleImageClick);
