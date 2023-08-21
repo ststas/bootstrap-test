@@ -136,38 +136,11 @@ body {
 }
 
 /*FOOTER*/
-.fa-telegram {
+.fa-telegram, .fa-linkedin, .fa-github, .fa-facebook {
   color: rgb(101, 101, 101);
   transition: all .4s ease-in-out;
 }
-.fa-telegram:hover {
-  color: rgb(3, 66, 254);
-  scale: 1.5;
-  transition: all .4s ease-in-out;
-}
-.fa-linkedin {
-  color: rgb(101, 101, 101);
-  transition: all .4s ease-in-out;
-}
-.fa-linkedin:hover {
-  color: rgb(3, 66, 254);
-  scale: 1.5;
-  transition: all .4s ease-in-out;
-}
-.fa-github {
-  color: rgb(101, 101, 101);
-  transition: all .4s ease-in-out;
-}
-.fa-github:hover {
-  color: rgb(3, 66, 254);
-  scale: 1.5;
-  transition: all .4s ease-in-out;
-}
-.fa-facebook {
-  color: rgb(101, 101, 101);
-  transition: all .4s ease-in-out;
-}
-.fa-facebook:hover {
+.fa-telegram:hover, .fa-linkedin:hover, .fa-github:hover, .fa-facebook:hover {
   color: rgb(3, 66, 254);
   scale: 1.5;
   transition: all .4s ease-in-out;

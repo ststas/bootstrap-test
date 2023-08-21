@@ -6,7 +6,7 @@ function handleImageClick(event) {
     if (clickedImage) {
         const src = clickedImage.getAttribute('src');
         const alt = clickedImage.getAttribute('alt');
-        
+				
         modalImg.src = src;
         modalImg.alt = alt;
     }
