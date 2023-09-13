@@ -15,7 +15,7 @@
 
 ## To run
 * download repository and install Bootstrap, Webpack and the rest of dependencies stated on package.json.
-* use NPM RUN DEV to run the app.
+* use `NPM RUN DEV` to run the app.
 
 ## Web version
 * https://ststas.github.io
@@ -40,7 +40,7 @@
 
 ## Для запуска
 * скачайте репозиторий и установите зависимости, указаннные в файле package.json.
-* наберите NPM RUN DEV для запуска приложения.
+* наберите `NPM RUN DEV` для запуска приложения.
 
 ## Развернутая версия
 * https://ststas.github.io
