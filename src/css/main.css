@@ -124,6 +124,9 @@ body {
 }
 .projects .card-title {
   margin-bottom: 18px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .projects .card-img-top {
   filter: saturate(0);
